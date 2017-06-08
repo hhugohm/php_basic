@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Fibonacci sequence</title>
+		<link rel="stylesheet"  type="text/css"  href="common.css" />
+	</head>
+
+<body>
+<h2>Fibonacci sequence</h2>
+
+<table>
+	<tr>
+		<td>Sequence#  </td>
+		<td>Value      </td>
+	</tr>
+
+
+</table>
+
+<?php
+
+
+
+
+
+
+
+?>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?php
+
+ $count =10;
+ 
+ while ($count<=0){
+ 	$count = $count-1;
+ 	echo "Selling a widget .......done".
+ 	//$count = $count-1;
+ 	echo "There are $count widgets left.";
+ 	
+ }
+
+
+
+
+?>

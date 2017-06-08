@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Fibonacci sequence</title>
+		<link rel="stylesheet"  type="text/css"  href="common.css" />
+	</head>
+
+<body>
+<h2>Fibonacci sequence</h2>
+<?php
+$count =0;
+echo "<table>
+	<tr>
+		<td>Sequence#  </td>
+		<td>Value      </td>
+	</tr>";
+for($count ;$count<11;$count++){
+echo "<tr>
+		<td> </td>
+		<td></td>
+	</tr>";
+}
+
+echo "</table>";
+
+
+
+?>
+
+</body>
+</html>

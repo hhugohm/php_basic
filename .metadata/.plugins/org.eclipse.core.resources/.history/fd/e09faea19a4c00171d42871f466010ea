@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Fibonacci sequence</title>
+		<link rel="stylesheet"  type="text/css"  href="common.css" />
+	</head>
+
+<body>
+<h2>Fibonacci sequence</h2>
+<?php
+$count =0;
+$fibonacci=0;
+echo "<table>
+	<tr>
+		<td>Sequence#  </td>
+		<td>Value      </td>
+	</tr>";
+for($count ;$count<11;$count++){
+	if($count==0 || $count==1){
+		$fibonacci=$count;
+	}
+	else{
+		$fibonacci= $fibonacci +$count;
+	}
+echo "<tr>
+		<td>$count</td>
+		<td>$fibonacci</td>
+	</tr>";
+}
+
+echo "</table>";
+
+
+
+?>
+
+</body>
+</html>
